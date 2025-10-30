@@ -27,7 +27,7 @@ from sklearn.preprocessing import MinMaxScaler
 # ----------------------
 # App configuration
 # ----------------------
-st.set_page_config(page_title="Energy Forecasting Pro (v3)",
+st.set_page_config(page_title="Energy Forecasting demo (v3)",
                    layout="wide", page_icon="⚡")
 
 st.title("⚡ Energy Forecasting & Comparison — Pro (v3)")
