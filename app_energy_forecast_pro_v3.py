@@ -30,7 +30,7 @@ from sklearn.preprocessing import MinMaxScaler
 st.set_page_config(page_title="Energy Forecasting demo (v3)",
                    layout="wide", page_icon="⚡")
 
-st.title("⚡ Energy Forecasting & Comparison — Pro (v3)")
+st.title("⚡ Energy Forecasting & Comparison — demo (v3)")
 st.markdown("**Portfolio-ready project:** LSTM,  and Prophet comparison with Student Mode for teaching.")
 
 # ----------------------
