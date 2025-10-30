@@ -1,12 +1,12 @@
 """
 app_energy_forecast_pro_v3.py
-Professional Streamlit app for Energy Forecasting (LSTM, ARIMA, Prophet)
+Professional Streamlit app for Energy Forecasting (LSTM,  Prophet)
 Features:
 - Loads cleaned_energy.csv from same folder
 - Auto-loads saved models from ./models/ if present
 - Trains and saves models if not present
 - Student Mode toggle: simplifies UI for teaching/demo
-- Tabs: Overview, LSTM, ARIMA, Prophet, Comparison, Exercises
+- Tabs: Overview, LSTM,  Prophet, Comparison, Exercises
 - Uses Plotly for interactive charts
 """
 
@@ -31,7 +31,7 @@ st.set_page_config(page_title="Energy Forecasting Pro (v3)",
                    layout="wide", page_icon="⚡")
 
 st.title("⚡ Energy Forecasting & Comparison — Pro (v3)")
-st.markdown("**Portfolio-ready project:** LSTM, ARIMA, and Prophet comparison with Student Mode for teaching.")
+st.markdown("**Portfolio-ready project:** LSTM,  and Prophet comparison with Student Mode for teaching.")
 
 # ----------------------
 # Paths and files
@@ -114,7 +114,7 @@ tab_overview, tab_lstm,  tab_prophet, tab_comp, tab_ex = st.tabs([
 # ----------------------
 with tab_overview:
     st.header("Project Overview & Data Snapshot")
-    st.markdown("This app is part of a portfolio-quality Energy Forecasting project comparing LSTM, ARIMA, and Prophet models.")
+    st.markdown("This app is part of a portfolio-quality Energy Forecasting project comparing LSTM, and Prophet models.")
     st.subheader("Data preview")
     st.dataframe(df.head(10))
 
@@ -369,7 +369,7 @@ with tab_ex:
     st.markdown("This project is designed for portfolio presentation and teaching. Include the following in your portfolio page:")
     st.markdown("""
 - Short description of problem and dataset
-- Models: LSTM, ARIMA, Prophet — comparison and insights
+- Models: LSTM,  Prophet — comparison and insights
 - Link to interactive Streamlit demo and GitHub repo with Notebook
 - Screenshots and short video demo (optional)
 """)
