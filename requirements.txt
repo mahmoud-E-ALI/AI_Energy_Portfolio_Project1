@@ -9,4 +9,4 @@ keras
 plotly
 pulp
 joblib
-prophit
+prophet
