@@ -5,9 +5,9 @@ This project demonstrates an end-to-end energy forecasting workflow using Machin
 
 ## Contents
 - `app_energy_forecast_pro_v3.py` — Streamlit app for interactive exploration and forecasting.
-- `Energy_Forecasting_LSTM_Comparisons.ipynb` — Jupyter Notebook with full experiments and comparisons (LSTM, RandomForest, ARIMA, Prophet).
+- `Energy_Forecasting_LSTM_Comparisons.ipynb` — Jupyter Notebook with full experiments and comparisons (LSTM, RandomForest, Prophet).
 - `cleaned_energy.csv` — Expected cleaned dataset (place in same folder).
-- `models/` — Folder where trained models are saved (`lstm_model.h5`, `arima_model.pkl`, `prophet_model.pkl`).
+- `models/` — Folder where trained models are saved (`lstm_model.keras`, `prophet_model.pkl`).
 
 ## How to use
 1. Place your cleaned dataset `cleaned_energy.csv` in this folder. The file should contain either a `date` column or a datetime-like first column, and a numeric consumption column (named `consumption` or `Global_active_power`).
